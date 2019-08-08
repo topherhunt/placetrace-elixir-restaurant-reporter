@@ -1,21 +1,9 @@
 # Restaurants
 
-**TODO: Add description**
+How to run it:
 
-## Installation
+  * Ensure Erlang v20+ and Elixir v1.8.1 are installed.
+    - I recommend Homebrew to install Erlang then Kiex to install Elixir.
+    - Cheatsheet: https://github.com/topherhunt/cheatsheets/blob/master/elixir/elixir_syntax.md#installing-elixir-on-osx
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `restaurants` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:restaurants, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/restaurants](https://hexdocs.pm/restaurants).
-
+  * `mix run scripts/report_on_restaurants.exs`
