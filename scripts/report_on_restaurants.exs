@@ -1,0 +1,1 @@
+IO.puts Restaurants.hello()
